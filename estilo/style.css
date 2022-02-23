@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --titulo:  'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.548);
+    padding: 20px 0;
+
+}
+main{
+ display: grid;
+ justify-content: space-around;
+ 
+}
+
+
+.historia{
+    margin-left: 800px;
+    display: inline-block;
+    margin-bottom: 500px;
+}
+
+h1{
+    font-family: var(--titulo);
+    color: #00247b;
+}
+div.times{
+    margin-top: 15px;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 100px;
+
+
+}
+div.times > abbr,.timepq{
+    width: 8%;
+   margin-top: 20px;
+
+    
+}
+.timepq:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00247b;
+    transform: translateY(-15px);
+    transition: 0.5s;
+    transition-duration: 0.5s;
+
+    
+}
+.coritiba{
+    width: 7%;
+}
+.cuiaba{
+    padding-left: 12px;
+}
+.fortaleza{
+    margin-left: -12px;
+    padding-right: 12px;
+}
+.goias{
+    width: 7%;
+    margin-right: 20px;
+
+}
+.inter{
+    width: 7%;
+    margin-right: 14px;
+}
+.pal{
+    margin-left: -10px;
+    width: 7.8%;
+    margin-bottom: 5px;
+}
+.rb{
+    margin-left: 12px;
+
+}
+.santos{
+    width: 7%;
+    margin-bottom: 10px;
+    margin-left: 19px;
+}
+.sp{
+    width: 6.4%;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+#jogadores{
+    margin-top: -420px;
+    margin-left: -120px;
+    animation: float 5s infinite;
+
+}
+@keyframes float{
+   
+   
+    50%{
+        transform: translateY(-160px);
+
+    }
+    100%{
+        transform: translateY(0px)
+
+    }
+
+}
+
+
+
+
+
